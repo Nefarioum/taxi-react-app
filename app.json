@@ -10,6 +10,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "plugins": [
+      "@notifee/react-native"
+    ],
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -17,7 +20,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nefarioum.taxireactapp"
     },
     "android": {
       "adaptiveIcon": {
